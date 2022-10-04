@@ -10,6 +10,7 @@ A socket is one endpoint of a two-way communication link between two programs ru
 A socket is bound to a port number so that the TCP layer can identify the application that data is destined to be sent to. An endpoint is a combination of an IP address and a port number.
 
 Protocol = A ste of rules with which streams of data will be sent from one end to other.
+
 IP Address = A unique IP address each time a connection is built between to ends, later it is removed.
 <img width="1278" alt="python-socket-connection-diagram" src="https://user-images.githubusercontent.com/33677647/193822754-86792c12-0c7f-425f-a321-e33c48551243.png">
 ![1_oz_4rjYCgQzfz7sRncEUyQ](https://user-images.githubusercontent.com/33677647/193822835-251bcca1-2374-445a-91bf-44d8f79fc670.jpeg)
