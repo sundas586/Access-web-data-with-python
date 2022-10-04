@@ -19,3 +19,21 @@ IP Address = A unique IP address each time a connection is built between to ends
 ![Uploading 1_oz_4rjYCgQzfz7sRncEUyQ.jpeg…]()
 ![udp-client-server-overview](https://user-images.githubusercontent.com/33677647/193823333-b12b27ca-2315-4502-8001-de679f610997.png)
 
+##Hypertext Transfer Protocol
+
+HTTP is a protocol for fetching resources such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are initiated by the recipient, usually the Web browse
+
+![diagram-of-http-communication-process](https://user-images.githubusercontent.com/33677647/193854230-5cdc0185-6b2f-4acd-978b-9134863923eb.png)
+
+![1](https://user-images.githubusercontent.com/33677647/193856343-5f59c9bb-7949-470d-9493-576f46d82fe2.PNG)
+![2](https://user-images.githubusercontent.com/33677647/193856381-b9057977-af40-4842-b42a-7f7920851f1b.PNG)
+![3](https://user-images.githubusercontent.com/33677647/193856407-0c72de59-68cd-4355-bdf8-c00562686df6.PNG)
+![4](https://user-images.githubusercontent.com/33677647/193856459-1e4bfa95-7dd7-463b-95ef-04ad62f5cd8d.PNG)
+
+In the following code of lines we do a HTTP request to server using python :
+- Build a connection **(Socket/ TCP connection)**
+- Ask the desired data through web browser **(GET REQUEST)**
+- Recieve the desired data from server **(RESPONCE)**
+
+![5](https://user-images.githubusercontent.com/33677647/193856682-5b556eda-5bae-406d-ac6b-0fafb91d2fab.PNG)
+
