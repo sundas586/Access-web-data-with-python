@@ -19,7 +19,7 @@ IP Address = A unique IP address each time a connection is built between to ends
 ![Uploading 1_oz_4rjYCgQzfz7sRncEUyQ.jpeg…]()
 ![udp-client-server-overview](https://user-images.githubusercontent.com/33677647/193823333-b12b27ca-2315-4502-8001-de679f610997.png)
 
-##Hypertext Transfer Protocol
+## Hypertext Transfer Protocol
 
 HTTP is a protocol for fetching resources such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are initiated by the recipient, usually the Web browse
 
