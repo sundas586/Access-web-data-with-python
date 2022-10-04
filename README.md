@@ -23,6 +23,8 @@ IP Address = A unique IP address each time a connection is built between to ends
 
 HTTP is a protocol for fetching resources such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are initiated by the recipient, usually the Web browse
 
+- In HTTP it is a rule that you have to request first, you can not get responce from server before
+
 ![diagram-of-http-communication-process](https://user-images.githubusercontent.com/33677647/193854230-5cdc0185-6b2f-4acd-978b-9134863923eb.png)
 
 ![1](https://user-images.githubusercontent.com/33677647/193856343-5f59c9bb-7949-470d-9493-576f46d82fe2.PNG)
