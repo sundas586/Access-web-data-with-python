@@ -1,6 +1,6 @@
 ### Access-web-data-with-python
 
-###Sockets
+###Sockets / TCP Connections ###
 
 Sockets and the socket API are used to send messages across a network. They provide a form of inter-process communication (IPC).
 A socket is one endpoint of a two-way communication link between two programs running on the network. 
