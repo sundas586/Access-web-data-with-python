@@ -3,3 +3,6 @@
 import urllib.request
 request_url = urllib.request.urlopen('https://www.geeksforgeeks.org/')
 print(request_url.read())
+
+# instead of open() we use openurl() as if its not a webpage but a file, and we treat it as a file.
+# it can be a html file or a text file, etc
