@@ -17,3 +17,5 @@ soup = BeautifulSoup(html, 'html.parser')
 tags = soup('a')
 for tag in tags:
     print(tag.get('href', None))                    # retrieve a anchor tag or retrieve None
+   
+    # hence beautiful soap is making it easy for us to parse through HTML syntax, with out using regular expression
