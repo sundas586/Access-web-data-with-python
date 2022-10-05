@@ -1,3 +1,8 @@
+''''
+A Python program to use urllib to read the HTML from the data files below, and parse the data,
+extracting numbers and compute the sum of the numbers in the file.
+'''
+
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import ssl
