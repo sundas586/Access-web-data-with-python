@@ -1,3 +1,4 @@
+# Pyhon produced urllib to make Socket and HTTP communications alot better.
 # 3 lines code to retrive web data and use it as a (by using HTTP urllib as a socket).
 
 import urllib.request
