@@ -39,3 +39,41 @@ In the following code of lines we do a HTTP request to server using python :
 
 ![5](https://user-images.githubusercontent.com/33677647/193856682-5b556eda-5bae-406d-ac6b-0fafb91d2fab.PNG)
 
+## Unicode Characters and Strings
+
+![a](https://user-images.githubusercontent.com/33677647/193957106-2176e8b7-9c71-43dd-9e36-b9672c17d8c3.PNG)
+
+by default is .decode(utf-8) or .decode(ASCII) becaused utf-8 and ASCII both are compatible to each other.  
+If its a old data, may be it is ASCII
+If its new data, may be it is  UTF-8
+As data is converted into bytes(by encoding) to travel over the internet
+
+![a](https://user-images.githubusercontent.com/33677647/193957923-9b7a7db2-be0b-4f72-8ecd-dd4b32827634.PNG)
+
+### ASCII AND UNICODE HISTORY
+
+![1](https://user-images.githubusercontent.com/33677647/193958017-c409f064-9684-4660-a21d-3abebe816a9f.PNG)
+
+Computers do not understand letters, they read numbers only, so we convert the letters into a ASCII code, for computer to read the letter,
+the letter "p" has a ASCII code 112.
+![2](https://user-images.githubusercontent.com/33677647/193958023-330abae6-5c3f-40fb-b03f-d4d28db49468.PNG)
+
+But ASCII code is only for English letters, to let English and Chinese computer talk over the internet,
+UNICODE was desigend, as unicode has lots and lots of characters.
+utf-8 and ASCII are just same and compatible
+![3](https://user-images.githubusercontent.com/33677647/193958026-3c52530d-9969-4238-908c-58feb8c11210.PNG)
+![4](https://user-images.githubusercontent.com/33677647/193958036-b38992b8-7243-414b-b6d1-63cda658392d.PNG)
+
+So, when you have a text like "Hi, this is a python3 statement \n Its october, 6:19 in the morning "
+This text has only ABC, 123, \n, etc . So it is obviously ASCII code.
+but when you encode it into bytes to send through internet,
+and a Japanese computer recieves it,
+they will use "UNICOde" to decode the English letters into there native letters.
+as UNICODE has wide range of characters from several languages.
+
+
+
+
+
+
+
