@@ -14,7 +14,7 @@ html = urllib.request.urlopen(url, context=ctx).read()  # creating Handle to pas
 soup = BeautifulSoup(html, 'html.parser')
 
 # Retrieve all of the anchor tags
-tags = soup('a')
+tags = soup('a')                                   # <a> = anchor tag
 for tag in tags:
     print(tag.get('href', None))                    # retrieve a anchor tag or retrieve None
    
