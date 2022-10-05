@@ -105,6 +105,12 @@ Web scraping is the process of collecting and parsing raw data from the Web.
 <img width="1920" alt="4" src="https://user-images.githubusercontent.com/33677647/194105993-ac57c224-b37e-467f-95cd-e63eca45e440.png">
 ![3](https://user-images.githubusercontent.com/33677647/194106098-892225be-72cb-4539-a187-a2bf5312b7b8.PNG)
 
+### Beautiful Soup
 
+The biggest problem in sraping is the parsing of the HTML that comes back as responce.
+And it turns out that when your browser retrieves HTML, it goes through a whole bunch of things that effectively forgives syntax errors in HTML. 
+and then you fix that. And you realize after you try to fix this and you try to parse all the links that there is just so many variations and someone has already produced a solution. And it's a library called BeautifulSoup from a place called crummy.com
+
+**Beautiful Soup is a Python package for parsing HTML and XML documents. It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for web scraping.**
 
 
