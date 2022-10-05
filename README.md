@@ -26,11 +26,12 @@ HTTP is a protocol for fetching resources such as HTML documents. It is the foun
 - In HTTP it is a rule that you have to request first, you can not get responce from server before
 
 ![diagram-of-http-communication-process](https://user-images.githubusercontent.com/33677647/193854230-5cdc0185-6b2f-4acd-978b-9134863923eb.png)
-
 ![1](https://user-images.githubusercontent.com/33677647/193856343-5f59c9bb-7949-470d-9493-576f46d82fe2.PNG)
 ![2](https://user-images.githubusercontent.com/33677647/193856381-b9057977-af40-4842-b42a-7f7920851f1b.PNG)
 ![3](https://user-images.githubusercontent.com/33677647/193856407-0c72de59-68cd-4355-bdf8-c00562686df6.PNG)
 ![4](https://user-images.githubusercontent.com/33677647/193856459-1e4bfa95-7dd7-463b-95ef-04ad62f5cd8d.PNG)
+![request](https://user-images.githubusercontent.com/33677647/194102580-ac354826-1fc8-4f55-95a0-d18ff46feab3.png)
+
 
 In the following code of lines we do a HTTP request to server using python :
 - Build a connection **(Socket/ TCP connection)**
@@ -76,6 +77,23 @@ as UNICODE has wide range of characters from several languages.
 ### import urllib.request
 
 Pyhon produced urllib to make Socket and HTTP communications alot better.
+
+### Data parsing
+
+Data parsing is converting data from one format to another. Widely used for data structuring, it is generally done to make the existing, often unstructured, unreadable data more comprehensible. (import urllib.parser)
+
+### Web Scraping
+
+Web scraping is the process of collecting and parsing raw data from the Web.
+
+- Find the URL that you want to scrape.
+- Inspecting the Page.
+- Find the data you want to extract.
+- Write the code.
+- Run the code and extract the data.
+- Store the data in the required format
+- 
+![Untitled-1](https://user-images.githubusercontent.com/33677647/194102295-aa77848c-d59c-4588-aaa4-703330861fd2.jpg)
 
 
 
