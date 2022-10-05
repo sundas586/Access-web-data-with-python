@@ -73,6 +73,11 @@ as UNICODE has wide range of characters from several languages.
 
 ![a](https://user-images.githubusercontent.com/33677647/193960227-1a2d9052-0210-4e4d-88df-45409082eef1.PNG)
 
+### import urllib.request
+
+Pyhon produced urllib to make Socket and HTTP communications alot better.
+
+
 
 
 
