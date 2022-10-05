@@ -93,10 +93,16 @@ Web scraping is the process of collecting and parsing raw data from the Web.
 - Run the code and extract the data.
 - Store the data in the required format
 - 
+![2](https://user-images.githubusercontent.com/33677647/194106402-72a58de3-05dc-43dc-8d41-da8233da3dde.PNG)
+![5](https://user-images.githubusercontent.com/33677647/194106418-a9e02533-5d84-4095-aff3-c36324a893e6.PNG)
+![6](https://user-images.githubusercontent.com/33677647/194106454-3013c02e-7db3-4c72-bf40-ee7a6b34f936.PNG)
+
+### Web scraping vs Web crawling
+
 ![Untitled-1](https://user-images.githubusercontent.com/33677647/194102295-aa77848c-d59c-4588-aaa4-703330861fd2.jpg)
-
-
-
+![web-scraping-vs-web-crawling](https://user-images.githubusercontent.com/33677647/194105960-26d3be8b-3bb8-406b-a549-df7e81595a88.jpg)
+<img width="1920" alt="4" src="https://user-images.githubusercontent.com/33677647/194105993-ac57c224-b37e-467f-95cd-e63eca45e440.png">
+![3](https://user-images.githubusercontent.com/33677647/194106098-892225be-72cb-4539-a187-a2bf5312b7b8.PNG)
 
 
 
