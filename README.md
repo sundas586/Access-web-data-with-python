@@ -112,5 +112,6 @@ And it turns out that when your browser retrieves HTML, it goes through a whole 
 and then you fix that. And you realize after you try to fix this and you try to parse all the links that there is just so many variations and someone has already produced a solution. And it's a library called BeautifulSoup from a place called crummy.com
 
 **Beautiful Soup is a Python package for parsing HTML and XML documents. It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for web scraping.**
+**Hence beautiful soap is making it easy for us to parse through HTML syntax, with out using regular expression**
 
 
