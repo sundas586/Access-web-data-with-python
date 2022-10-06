@@ -130,5 +130,18 @@ We just have to send the data to the network on a specific **format** that we al
 The act of going from an internal representation on one computer out to a sort of interchange format is called **serialization** format. And then the act of taking the data off of the wire and turning it into a new internal data structure, in the new environment, potentially in a very new language, is called **de-serialization**. So we take our internal structure, serialize it, send it across the network, then we receive it. We de-serialize it. and then we use it in this other programming language, in whatever structure makes sense, in that particular programming language. 
 The two types of serialization formats that we're going to talk about are **XML and JSON**.
 
+## eXtensible Markup Language (XML)
+
+Any serialization format has some special characters and then some rules about how to form the serialized document, basically, from the internal structures. 
+
+![1](https://user-images.githubusercontent.com/33677647/194354881-181cb951-1fcb-4417-a4bd-686574c987ce.PNG)
+![2](https://user-images.githubusercontent.com/33677647/194354894-ac189be0-5cce-495f-8a13-2b8b9a848272.PNG)
+![3](https://user-images.githubusercontent.com/33677647/194354914-f6c03f4d-bc1b-43ed-b57c-768fda431cd9.PNG)
+![4](https://user-images.githubusercontent.com/33677647/194354942-bca4a0ad-f097-43d4-8edf-29f8d1e23b0f.PNG)
+![5](https://user-images.githubusercontent.com/33677647/194354951-c4e2b737-c2ff-4923-af56-630a76670375.PNG)
+Just like folder paths,
+![6](https://user-images.githubusercontent.com/33677647/194354960-dca6418d-e16e-4322-8e97-9513b20049a1.PNG)
+
+
 
 
