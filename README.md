@@ -149,7 +149,8 @@ So we have two cooperating applications, and they've got to send data to one ano
 ![1](https://user-images.githubusercontent.com/33677647/194357864-a4abf8f3-5c1c-4f36-8855-685d627c1f5e.PNG)
 ![2](https://user-images.githubusercontent.com/33677647/194357875-cde74cb6-2de2-41b4-9524-a7d31143052e.PNG)
 Here we have a XML document and a XML schema contract,
-the contract checks that in the document, is the first child node a string? 2nd child node a integer, 3rd child node is a date type, if all true, the the Validator, Validates it :
+the contract checks that in the document,
+the outer bit of this particular XML is expected to be a tag named person and that's what that's saying. Then what it says is within that there's going to be a sequence of tags, xs:sequence. And then we basically say oh, and there's going to be a tag called lastname and it's going to be a string. And then there's going to be a tag that's age and it's going to be integer. And there's going to be a tag called dateborn and that's going to be a date. And so we can sort of look at this and say outer one person, next one in name, age, that's a number, that's good, that's a string, that's good. That looks like a date, that's good. Check, check, check, check, check. This XML matches that contract and that's the idea. then the Validator, Validates it :
 ![3](https://user-images.githubusercontent.com/33677647/194357903-1f36404d-361c-47dc-ad91-8fde2f8d8ff6.PNG)
 
 
