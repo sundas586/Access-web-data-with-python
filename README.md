@@ -142,6 +142,15 @@ Any serialization format has some special characters and then some rules about h
 Just like folder paths,
 ![6](https://user-images.githubusercontent.com/33677647/194354960-dca6418d-e16e-4322-8e97-9513b20049a1.PNG)
 
+### XML SCHEMA 
+
+So we have two cooperating applications, and they've got to send data to one another, and they have a disagreement as to whether or not the data is right. One side might blow up or the other side might blow up and it's like whose fault is it? And so it's important to be able to define a contract as to what is acceptable XML.So this side can say I sent good stuff, and this side I received bad stuff. So you can just look at a document and you can say yes, this validates, or no, it doesn't validate. And validation is not the act of transferring the data or even deserializing the data. **Validation is the act of verifying that the data is in the right format. It's a contract.**
+
+![1](https://user-images.githubusercontent.com/33677647/194357864-a4abf8f3-5c1c-4f36-8855-685d627c1f5e.PNG)
+![2](https://user-images.githubusercontent.com/33677647/194357875-cde74cb6-2de2-41b4-9524-a7d31143052e.PNG)
+Here we have a XML document and a XML schema contract,
+the contract checks that in the document, is the first child node a string? 2nd child node a integer, 3rd child node is a date type, if all true, the the Validator, Validates it :
+![3](https://user-images.githubusercontent.com/33677647/194357903-1f36404d-361c-47dc-ad91-8fde2f8d8ff6.PNG)
 
 
 
