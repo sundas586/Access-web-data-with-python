@@ -153,5 +153,10 @@ the contract checks that in the document,
 the outer bit of this particular XML is expected to be a tag named person and that's what that's saying. Then what it says is within that there's going to be a sequence of tags, xs:sequence. And then we basically say oh, and there's going to be a tag called lastname and it's going to be a string. And then there's going to be a tag that's age and it's going to be integer. And there's going to be a tag called dateborn and that's going to be a date. And so we can sort of look at this and say outer one person, next one in name, age, that's a number, that's good, that's a string, that's good. That looks like a date, that's good. Check, check, check, check, check. This XML matches that contract and that's the idea. then the Validator, Validates it :
 ![3](https://user-images.githubusercontent.com/33677647/194357903-1f36404d-361c-47dc-ad91-8fde2f8d8ff6.PNG)
 
+The most used these days is called the **XML Schema from the World Wide Web Consortium.** It's called **XSD** and usually in the file that you get, if I just have a file and I send you the XML I have a suffix of .xml, and if I send you a schema, I tend to send you a file that's .xsd and so we kind of just call it XSD and that's the one we're going to talk about and so away we go. That's the one. 
+**- Extension of XML document --> .xml**
+**- Extension of XML schema contract --> .xsd**
+
+
 
 
