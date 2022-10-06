@@ -114,4 +114,11 @@ and then you fix that. And you realize after you try to fix this and you try to 
 **Beautiful Soup is a Python package for parsing HTML and XML documents. It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for web scraping.**
 **Hence beautiful soap is making it easy for us to parse through HTML syntax, with out using regular expression**
 
+# WIRE PROTOCOL
+
+**The Wire Protocol is  how the data is put on the wire, or how the data leaves one system, transits a network, and then enters another system. And in that destination system**
+
+The basic idea is that if we've got two programs, and they're going to communicate across the Internet. One is a Python program that's producing the data. Maybe it's reading a database, maybe it's reading a file. But inside it has a Python data structure, like a dictionary. And we want to send that across the network.the network is not Python. The network is not Java. The network is a data, And the other program is in Java, perhaps, our Python dictionary in other system needs to be a Java HashMap. 
+We just have to send the data to the network on a specific **format** that we all agree on. **XML** , which is one of the **wire formats**.The data which is in a Python dictionary and we covert that data into to XML then send a person across the network,
+
 
