@@ -119,6 +119,16 @@ and then you fix that. And you realize after you try to fix this and you try to 
 **The Wire Protocol is  how the data is put on the wire, or how the data leaves one system, transits a network, and then enters another system. And in that destination system**
 
 The basic idea is that if we've got two programs, and they're going to communicate across the Internet. One is a Python program that's producing the data. Maybe it's reading a database, maybe it's reading a file. But inside it has a Python data structure, like a dictionary. And we want to send that across the network.the network is not Python. The network is not Java. The network is a data, And the other program is in Java, perhaps, our Python dictionary in other system needs to be a Java HashMap. 
-We just have to send the data to the network on a specific **format** that we all agree on. **XML** , which is one of the **wire formats**.The data which is in a Python dictionary and we covert that data into to XML then send a person across the network,
+We just have to send the data to the network on a specific **format** that we all agree on. **XML** , which is one of the **wire formats**.The data which is in a Python dictionary and we covert that data into to XML then send a person across the network.
+
+![1](https://user-images.githubusercontent.com/33677647/194246075-57f9424f-25c5-4fb4-a535-46b88081d054.PNG)
+![3](https://user-images.githubusercontent.com/33677647/194246084-802e3f19-4506-4dbe-a1fc-3a85275c8f7f.jpg)
+![4](https://user-images.githubusercontent.com/33677647/194246096-5f59801a-f7ad-4395-9b71-36f37516910c.PNG)
+![6](https://user-images.githubusercontent.com/33677647/194246181-089b6182-b1fb-49cd-a187-e02d0b72eae4.jpg)
+![7](https://user-images.githubusercontent.com/33677647/194246189-cd323785-bfd7-4008-87ad-5c8726d0f40d.PNG)
+
+The act of going from an internal representation on one computer out to a sort of interchange format is called **serialization** format. And then the act of taking the data off of the wire and turning it into a new internal data structure, in the new environment, potentially in a very new language, is called **de-serialization**. So we take our internal structure, serialize it, send it across the network, then we receive it. We de-serialize it. and then we use it in this other programming language, in whatever structure makes sense, in that particular programming language. 
+The two types of serialization formats that we're going to talk about are **XML and JSON**.
+
 
 
