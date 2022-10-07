@@ -130,7 +130,7 @@ We just have to send the data to the network on a specific **format** that we al
 The act of going from an internal representation on one computer out to a sort of interchange format is called **serialization** format. And then the act of taking the data off of the wire and turning it into a new internal data structure, in the new environment, potentially in a very new language, is called **de-serialization**. So we take our internal structure, serialize it, send it across the network, then we receive it. We de-serialize it. and then we use it in this other programming language, in whatever structure makes sense, in that particular programming language. 
 The two types of serialization formats that we're going to talk about are **XML and JSON**.
 
-## eXtensible Markup Language (XML)
+## 1_eXtensible Markup Language (XML)
 
 Any serialization format has some special characters and then some rules about how to form the serialized document, basically, from the internal structures. 
 
@@ -152,10 +152,40 @@ Here we have a XML document and a XML schema contract,
 the contract checks that in the document,
 the outer bit of this particular XML is expected to be a tag named person and that's what that's saying. Then what it says is within that there's going to be a sequence of tags, xs:sequence. And then we basically say oh, and there's going to be a tag called lastname and it's going to be a string. And then there's going to be a tag that's age and it's going to be integer. And there's going to be a tag called dateborn and that's going to be a date. And so we can sort of look at this and say outer one person, next one in name, age, that's a number, that's good, that's a string, that's good. That looks like a date, that's good. Check, check, check, check, check. This XML matches that contract and that's the idea. then the Validator, Validates it :
 ![3](https://user-images.githubusercontent.com/33677647/194357903-1f36404d-361c-47dc-ad91-8fde2f8d8ff6.PNG)
+![Capture](https://user-images.githubusercontent.com/33677647/194526201-ac3bc7fc-2120-458d-91d3-0b9036442fb5.PNG)
 
 The most used these days is called the **XML Schema from the World Wide Web Consortium.** It's called **XSD** and usually in the file that you get, if I just have a file and I send you the XML I have a suffix of .xml, and if I send you a schema, I tend to send you a file that's .xsd and so we kind of just call it XSD and that's the one we're going to talk about and so away we go. That's the one. <br />
 **- Extension of XML document --> .xml** <br />
 **- Extension of XML schema contract --> .xsd** <br />
+
+## 2_ JavaScript Object Notation (JSON)
+
+For serialization with XML ,we're not going to use the Python syntax, we're not going to use the Java syntax, **we're going to use XML in the middle**. <br />
+But what happens in JSON is we're not going use the Python syntax, we're not going use the Java syntax, but **we are going to use the JavaScript syntax in the middle**.
+So **JSON is very native to JavaScript.**
+
+![0](https://user-images.githubusercontent.com/33677647/194528940-0be575d2-1c7b-47f4-aecd-b4305115c2bf.PNG)
+
+info["name"] --> Chuck <br />
+info ["email"]["hide"] --> yes <br />
+
+![a](https://user-images.githubusercontent.com/33677647/194528958-0c3cb8af-46fc-4d55-b372-ced602650c97.PNG)
+![b](https://user-images.githubusercontent.com/33677647/194528979-817605de-7e04-49b0-90e0-8cd5d8c3d724.PNG)
+
+### Service Oriented Architectures
+
+![000](https://user-images.githubusercontent.com/33677647/194534365-53cbdbaf-4564-4594-b780-7be85c886c53.PNG)
+![00](https://user-images.githubusercontent.com/33677647/194534415-4323c64f-d674-442d-87f3-e994c159dcb6.PNG)
+
+Adding a service layer :
+
+![2](https://user-images.githubusercontent.com/33677647/194557413-67643497-f36c-4b80-8e9f-28ab06632543.PNG)
+![3](https://user-images.githubusercontent.com/33677647/194557277-d8700f40-64df-404d-adb8-8a47d64b0712.PNG)
+![4](https://user-images.githubusercontent.com/33677647/194557292-e57b68fc-8c3c-401c-a6bb-d834b4edea99.PNG)
+![5](https://user-images.githubusercontent.com/33677647/194557494-9e1dedae-65e5-4455-8b62-263f3940b564.PNG)
+
+
+
 
 
 
