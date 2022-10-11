@@ -1,7 +1,8 @@
 # Access-web-data-with-python
 
-An Overview of Sockets and Accessing web data artitecture at first:
+##An Overview of Sockets and Accessing web data artitecture at first:
 
+A socket built in between client and server, to send **Client Request** to server and get the **Server Responce** back to client.
 ![socket](https://user-images.githubusercontent.com/33677647/195145105-5f3d67d2-3b52-45df-bab7-6508679de458.png)
 ![REST-architecture-devdotcode 001](https://user-images.githubusercontent.com/33677647/195145117-9865849e-be31-4f89-8818-00d0ab5b3449.jpeg)
 
@@ -188,6 +189,8 @@ Adding a service layer :
 ![3](https://user-images.githubusercontent.com/33677647/194557277-d8700f40-64df-404d-adb8-8a47d64b0712.PNG)
 ![4](https://user-images.githubusercontent.com/33677647/194557292-e57b68fc-8c3c-401c-a6bb-d834b4edea99.PNG)
 ![5](https://user-images.githubusercontent.com/33677647/194557494-9e1dedae-65e5-4455-8b62-263f3940b564.PNG)
+![0](https://user-images.githubusercontent.com/33677647/195148474-33a900c7-f130-48e1-93e3-580317fcf5cc.PNG)
+![1](https://user-images.githubusercontent.com/33677647/195148478-a538bad7-d1ff-401f-b94a-5e296db3ffb0.PNG)
 
 
 
