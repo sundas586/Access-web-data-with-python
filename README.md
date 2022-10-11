@@ -1,5 +1,10 @@
 # Access-web-data-with-python
 
+An Overview of Sockets and Accessing web data artitecture at first:
+
+![socket](https://user-images.githubusercontent.com/33677647/195145105-5f3d67d2-3b52-45df-bab7-6508679de458.png)
+![REST-architecture-devdotcode 001](https://user-images.githubusercontent.com/33677647/195145117-9865849e-be31-4f89-8818-00d0ab5b3449.jpeg)
+
 ### Sockets / TCP Connections 
 
 Sockets and the socket API are used to send messages across a network. They provide a form of inter-process communication (IPC).
