@@ -166,8 +166,8 @@ The most used these days is called the **XML Schema from the World Wide Web Cons
 
 ## 2_ JavaScript Object Notation (JSON)
 
-For serialization with XML ,we're not going to use the Python syntax, we're not going to use the Java syntax, **we're going to use XML in the middle**. <br />
-But what happens in JSON is we're not going use the Python syntax, we're not going use the Java syntax, but **we are going to use the JavaScript syntax in the middle**.
+For serialization with XML ,we're not going to use the Python syntax, we're not going to use the Java syntax, **we're going to use XML in the wire**. <br />
+But what happens in JSON is we're not going use the Python syntax, we're not going use the Java syntax, but **we are going to use the JavaScript syntax in the wire**.
 So **JSON is very native to JavaScript.**
 
 ![0](https://user-images.githubusercontent.com/33677647/194528940-0be575d2-1c7b-47f4-aecd-b4305115c2bf.PNG)
