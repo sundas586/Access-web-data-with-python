@@ -104,6 +104,9 @@ Web scraping is the process of collecting and parsing raw data from the Web.
 ![2](https://user-images.githubusercontent.com/33677647/194106402-72a58de3-05dc-43dc-8d41-da8233da3dde.PNG)
 ![5](https://user-images.githubusercontent.com/33677647/194106418-a9e02533-5d84-4095-aff3-c36324a893e6.PNG)
 ![6](https://user-images.githubusercontent.com/33677647/194106454-3013c02e-7db3-4c72-bf40-ee7a6b34f936.PNG)
+![client server](https://user-images.githubusercontent.com/33677647/202932876-2a78787e-519c-4a93-8753-ca925d211c54.JPG)
+
+Generally when we make a request the server open the requested webpage in browser as responce, but when we do web scrapping using python, and we make a request, than instead of openning that url( requested web page) in the browser, the data of that url( requested web page) gets saved in desired file path.
 
 ### Web scraping vs Web crawling
 
