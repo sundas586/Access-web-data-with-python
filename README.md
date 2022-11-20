@@ -171,7 +171,7 @@ But what happens in JSON is we're not going use the Python syntax, we're not goi
 So **JSON is very native to JavaScript.**
 
 ![0](https://user-images.githubusercontent.com/33677647/194528940-0be575d2-1c7b-47f4-aecd-b4305115c2bf.PNG)
-json.load() --> It is used to read JSON encoded data from a file and convert it into a Python dictionary and deserialize a file itself
+json.load() --> It is used to read JSON encoded data from a file and convert it into a Python dictionary and deserialize a file itself. <br/>
 info["name"] --> Chuck <br />
 info ["email"]["hide"] --> yes <br />
 
