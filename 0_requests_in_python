@@ -3,10 +3,7 @@ The module provides a simple way to make requests to URLs, and it handles many o
 
 Here is an example of how to use the requests module to send a GET request to a URL and print the response:<br/>
 
-import requests<br/>
 
-response = requests.get('https://www.example.com')<br/>
-print(response.content)<br/>
 
 
 
